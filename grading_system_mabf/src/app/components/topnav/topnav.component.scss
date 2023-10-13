@@ -1,0 +1,23 @@
+.topnav {
+    background-color: #F1A661; 
+    color: #fff; 
+    overflow: hidden; 
+}
+
+.container {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    padding: 10px; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.username {
+    font-weight: 700; 
+    margin-right: 40px; 
+}
+
+.user-icon {
+    width: 40px; 
+    height: 40px; 
+}
