@@ -8,20 +8,27 @@ import { LayoutComponent } from './layout.component';
 import { StudentsComponent } from './students/students.component';
 import { TeachersComponent } from './teachers/teachers.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ComponentsModule } from "../components/components.module";
+import { TeachersModule } from './teachers/teachers.module';
+import { StudentsModule } from './students/students.module';
 
 
 
 @NgModule({
-  declarations: [
-    ScreenComponent,
-    LayoutComponent,
-    TeachersComponent,
-    TopnavComponent,
-    SidenavComponent,
-  ],
-  imports: [
-    CommonModule,
-    LayoutRoutingModule
-  ]
+    declarations: [
+        ScreenComponent,
+        LayoutComponent,
+        TeachersComponent,
+        StudentsComponent,
+        TopnavComponent,
+        SidenavComponent,
+
+    ],
+    imports: [
+        CommonModule,
+        LayoutRoutingModule,
+        ComponentsModule,
+
+    ]
 })
 export class LayoutModule { }

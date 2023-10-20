@@ -1,8 +1,27 @@
-<div class="card">
-  <img src="assets/images/" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>{{name}}</b></h4>
-    <p>{{position}}</p>
-    <p>{{company}}</p>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+  .card {
+    transition: transform 0.2s, box-shadow 0.3s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .fa-user {
+    color: black;
+  }
+</style>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-c-blue order-card">
+        <h3 class="m-b-20 titles">
+          <i class="fa fa-user"></i> {{title}}
+        </h3>
+        <h2 class="text-center"><span>{{value}}</span></h2>
+        <p class="m-b-20">{{content}}</p>
+      </div>
+    </div>
   </div>
 </div>

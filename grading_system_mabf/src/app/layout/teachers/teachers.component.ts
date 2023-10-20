@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { card_data } from 'src/share_data/teachers_data';
 
 @Component({
   selector: 'app-teachers',
@@ -6,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./teachers.component.scss']
 })
 export class TeachersComponent implements OnInit {
-
+  cardData = card_data;
   constructor() { }
+
 
   ngOnInit(): void {
   }

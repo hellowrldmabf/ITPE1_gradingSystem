@@ -1,5 +1,5 @@
-<app-card
-    name = "Harry"
-    position = "Speaker of the house"
-    company = "Philippines"
+<app-card *ngFor="let item of cardData"
+    title = "{{item.title}}"
+    value ="{{item.value}}"
+    content ="{{item.content}}"
 ></app-card>

@@ -1,16 +1,58 @@
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  margin: auto;
+body{
+  margin-top: 10px;
+  background: black;
+}
+.m-b-20{
+  text-align: center;
+}
+.order-card {
+  color: rgb(7, 7, 7);
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
 .container {
-  padding: 2px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  float: left;
+  width: 25%;
+  padding: 35px;
+  margin-bottom: 20px;
+  border-radius: 50;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 7px -4px rgba(240, 6, 6, 0.2);
+  margin-left: 250px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card:first-child {
+  background-color: rgb(213, 0, 0);
+
+
+}
+
+.card:nth-child(2) {
+  background-color: rgb(46, 125, 50);
+}
+
+.card:nth-child(3) {
+  background-color: rgb(255, 111, 0);
+}
+
+.text-center {
+  color: black;
+
+}
+
+
+.bg-c-blue{
+  background: linear-gradient(to bottom, #ff9966 0%, #ff9966 100%);
+}
+
+.card .card-block {
+  padding: 10px;
+}
+
+.order-card i {
+  font-size: 26px;
 }

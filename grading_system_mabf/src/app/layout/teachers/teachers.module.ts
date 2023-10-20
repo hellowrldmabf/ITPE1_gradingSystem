@@ -8,7 +8,7 @@ import { TeachersComponent } from './teachers.component';
 @NgModule({
   declarations: 
   [
-   
+
   ],
   imports: [
     CommonModule,
@@ -16,4 +16,3 @@ import { TeachersComponent } from './teachers.component';
   ]
 })
 export class TeachersModule { }
-  
